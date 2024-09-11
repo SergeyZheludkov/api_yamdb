@@ -5,16 +5,18 @@ YaMDB - это API собирающий отзывы пользователей 
 
 ## Используемые технологии:
 
-- django
+- Django 3.2
 - DRF
 - Simple JWT
+
+В проекте используется Python 3.9
 
 ## Как запустить проект:
 
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/VladimirNagibin/api_yamdb.git
+git clone https://git@github.com:SergeyZheludkov/api_yamdb.git 
 ```
 
 ```
@@ -131,7 +133,11 @@ python manage.py load_data
 
 Более подробные данные: http://127.0.0.1:8000/redoc/
 
+В корень проекта необходимо поместить файл .env с содержимым SECRET_KEY= '<секретный ключ Django>'
+
+____
+
 ## Авторы проекта
-- Владимир Нагибин (Github: [@VladimirNagibin](https://github.com/VladimirNagibin/))
 - Сергей Желудков (Github: [@SergeyZheludkov](https://github.com/SergeyZheludkov/))
+- Владимир Нагибин (Github: [@VladimirNagibin](https://github.com/VladimirNagibin/))
 - Вадим Трахимец (Github: [@Tantal25](https://github.com/Tantal25/))
